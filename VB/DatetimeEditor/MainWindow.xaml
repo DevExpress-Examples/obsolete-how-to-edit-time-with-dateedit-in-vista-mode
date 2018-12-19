@@ -38,9 +38,14 @@
                 </Grid>
             </Grid>
         </ControlTemplate>
-        <Style TargetType="{x:Type dxe:DateEdit}" >
-            <Setter Property="Mask" Value="G"/>
+        <Style TargetType="{x:Type dxe:DateEdit}">
+            <Setter Property="Mask" Value="G" />
             <Setter Property="MaskUseAsDisplayFormat" Value="True" />
+            <Setter Property="StyleSettings">
+                <Setter.Value>
+                    <dxepc:DateEditCalendarStyleSettings />
+                </Setter.Value>
+            </Setter>
         </Style>
     </Window.Resources>
     <Grid>
