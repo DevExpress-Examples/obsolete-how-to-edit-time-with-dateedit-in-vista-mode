@@ -1,11 +1,7 @@
-﻿using System;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
 
-namespace DatetimeEditor
-{
-    public partial class MainWindow : Window
-    {
+namespace DatetimeEditor {
+    public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
         }

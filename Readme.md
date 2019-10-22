@@ -1,16 +1,16 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Clock.xaml](./CS/DatetimeEditor/Clock.xaml) (VB: [Clock.xaml](./VB/DatetimeEditor/Clock.xaml))
-* [Clock.xaml.cs](./CS/DatetimeEditor/Clock.xaml.cs) (VB: [Clock.xaml.vb](./VB/DatetimeEditor/Clock.xaml.vb))
-* [DateTimeEdit.cs](./CS/DatetimeEditor/DateTimeEdit.cs) (VB: [DateTimeEdit.vb](./VB/DatetimeEditor/DateTimeEdit.vb))
 * **[MainWindow.xaml](./CS/DatetimeEditor/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DatetimeEditor/MainWindow.xaml))**
-<!-- default file list end -->
-# How to edit time with DateEdit in Vista mode
 
+# How to edit time within the DateEdit popup (Vista mode)
 
-<p>This example demonstrates how to implement the time editing in DateEdit's popup. For this, the DateEditCalendar class' descendant is created.</p>
+In **v19.2** and newer, you can use [DateEditNavigatorWithTimePickerStyleSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.DateEditNavigatorWithTimePickerStyleSettings?v=19.2) to show the time editor in the popup.
 
-<br/>
-
-
+```xml
+<dxe:DateEdit>
+    <dxe:DateEdit.StyleSettings>
+        <dxe:DateEditNavigatorWithTimePickerStyleSettings />
+    </dxe:DateEdit.StyleSettings>
+</dxe:DateEdit>
+```
