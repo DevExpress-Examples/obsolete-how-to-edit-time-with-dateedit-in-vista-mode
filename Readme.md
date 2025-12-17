@@ -3,4 +3,4 @@
 - [DateEditNavigatorWithTimePickerStyleSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.DateEditNavigatorWithTimePickerStyleSettings)
 - [DateEdit Operation Modes](https://docs.devexpress.com/WPF/116793/controls-and-libraries/data-editors/common-features/editor-operation-modes/dateedit)
 
-The current approach will not be updated in the future.
+The current repository will not be updated in the future.
